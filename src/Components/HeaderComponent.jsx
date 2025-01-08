@@ -1,4 +1,5 @@
 import styles from "./Header.module.css";
+import NavigationComponent from "./NavigationComponent";
 
 const HeaderComponent=()=>{
     return (
@@ -6,8 +7,10 @@ const HeaderComponent=()=>{
             <div className={styles.header_titles}>
                 <h1 className={styles.title}>Marc Mansour</h1>
                 <h2 className={styles.subtitle}>Front End Web Developer</h2>
-                <p>Aspiring Web Developer</p>
+                <p>I build digital experiences for the web for everyone to enjoy</p>
+                <NavigationComponent/>
             </div>
+          
         </div>
     )
 }
