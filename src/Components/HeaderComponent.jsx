@@ -1,5 +1,6 @@
 import styles from "./Header.module.css";
 import NavigationComponent from "./NavigationComponent";
+import SocialIconsComponent from "./SocialIconsComponents";
 
 const HeaderComponent=()=>{
     return (
@@ -9,6 +10,7 @@ const HeaderComponent=()=>{
                 <h2 className={styles.subtitle}>Front End Web Developer</h2>
                 <p>I build digital experiences for the web for everyone to enjoy</p>
                 <NavigationComponent/>
+                <SocialIconsComponent/>
             </div>
           
         </div>
