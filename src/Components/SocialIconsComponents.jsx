@@ -22,7 +22,7 @@ const SocialIconsComponent=()=>{
         }
     ];
     return(
-        <div>
+        <div className="mt-md">
             {
                 socialLinks.map((social,index)=>{
                     return (

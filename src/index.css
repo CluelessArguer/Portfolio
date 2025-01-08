@@ -1,7 +1,10 @@
 :root{
-  --theme-color:#0e1227;
-  --text-color:#FFFFFF;
+  --theme-color:#3e1d26;
+  --text-color:#b9b9b9;
   --inter-font: "Inter";
+  --white: #D7D7D7;
+  --accent-color:#b19f49;
+  --heading-color:#e2e2e2;
 }
 
 *{
@@ -22,10 +25,18 @@ h1,h2,h3,h4,h5,h6{
 
 .icon{
   margin: 0.75rem;
-  opacity:0.6;
+  opacity:0.7;
 }
 
 .icon:hover{
   cursor: pointer;
   opacity: 0.8;
+}
+
+.mt-md{
+  margin-top:2rem;
+}
+
+.mt-lg{
+  margin-top:3rem;
 }
