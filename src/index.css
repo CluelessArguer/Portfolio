@@ -5,6 +5,7 @@
   --white: #D7D7D7;
   --accent-color:#b19f49;
   --heading-color:#e2e2e2;
+  --accent-color-rgb:177, 159, 73;
 }
 
 *{
@@ -13,7 +14,7 @@
   box-sizing: border-box;
 }
 
-body{
+.body{
   font-family: var(--inter-font),"Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   background-color: var(--theme-color);
   color:var(--text-color);
@@ -24,7 +25,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .icon{
-  margin: 0.75rem;
+  margin: 0.75rem 0;
   opacity:0.7;
 }
 
@@ -33,10 +34,23 @@ h1,h2,h3,h4,h5,h6{
   opacity: 0.8;
 }
 
+.mt-sm{
+  margin-top:1rem;
+}
+
 .mt-md{
   margin-top:2rem;
 }
 
 .mt-lg{
   margin-top:3rem;
+}
+
+.accent_color{
+  color:var(--accent-color);
+}
+
+a{
+  text-decoration: none;
+  color:var(--text-color);
 }
