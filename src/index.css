@@ -59,3 +59,16 @@ a{
 .block{
   display:block;
 }
+
+
+@media (max-width:576px){
+  .icon{
+    margin:0 1.25rem;
+  }
+}
+
+@media (min-width:576px) and (max-width:768px){
+  .icon{
+    margin:0 1.25rem;
+  }
+}
