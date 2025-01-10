@@ -1,0 +1,10 @@
+.experience{
+    width:100vw;
+    height:100vh;
+}
+
+.experience_title{
+    font-size: 3rem;
+    letter-spacing:2px;
+    color: var(--heading-color);
+}
