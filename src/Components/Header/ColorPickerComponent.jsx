@@ -40,9 +40,8 @@ const ColorPickerComponent=()=>{
             <FontAwesomeIcon onClick={()=>setBoolPicker(prev=>prev?0:1)} icon={faPalette} size="xl" />
             {
             onPicker?
-                <>
+                <div className={styles.chrome_picker}>
                     <ChromePicker
-                        className={styles.chrome_picker}
                         color={currentColor=="Theme"?themeColor:currentColor=="Text"?textColor:currentColor=="Accent"?accentColor:headingColor}
                         onChange={changeColor}
                         onChangeComplete={changeColor}
@@ -64,9 +63,9 @@ const ColorPickerComponent=()=>{
                             }}><span className={styles.numbering_link}>06.</span>Dark Mode</li>
                             <li className={styles.color_item} onClick={(e)=>{
                                 themeColors("#3e1d26","#b9b9b9","#b19f49","#e2e2e2");
-                            }}><span className={styles.numbering_link}>07.</span>Reset to Default</li>
+                            }}><span className={styles.numbering_link}>07.</span>Reset</li>
                     </ul>
-                </>:""
+                </div>:""
             }
         </div>
     )

@@ -82,20 +82,19 @@
 }
 
 .chrome_picker{
+    display:flex;
+    flex-direction: column;
     position:absolute;
-    right:3%;
-    margin-top:0.5rem;
+    right:2%;
+    margin-top:1rem;
 }
 
 .color_list{
-    position:fixed;
-    top:50%;
-    right:3%;
     list-style-type: none;
     display:flex;
     flex-direction: column;
-    width:14rem;
-    margin:1rem 0 1rem 1rem;
+    padding:1rem;
+    background-color: var(--white);
 }
 
 .color_item{
@@ -165,17 +164,59 @@
 }
 
 @media (max-width:576px){
-    .nav_bar{
-        padding:1.5rem 1.5rem 0 1.5rem;
-    }
-
+    /*Header Component*/
     .header_social_titles{
         flex-direction: column-reverse;
         justify-content: center;
         margin-left: 0;
         margin-right:0.5rem;
     }
+    /*Navigation Component*/
+    .nav_links{
+        display:none;
+    }
 
+    .hamburger_menu{
+        display:block;
+        cursor:pointer;
+    }
+
+    .close_menu{
+        position:absolute;
+        top:0;
+        right:0;
+        padding: 1.5rem 1.5rem 0 0;
+        cursor:pointer;
+    }
+
+    .mobile_nav_links{
+        position:absolute;
+        top:0;
+        left:0;
+        background-color: var(--theme-color);
+        display:flex;
+        flex-direction: column;
+        width:100vw;
+        height:100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    /*Link Compononent*/
+    .nav_link{
+        margin:0.5rem 0;
+    }
+    /*Color Dropdown Component*/
+    .color_picker{
+        margin:0.5rem 0;
+    }
+
+    .chrome_picker{
+        justify-content: center;
+        width:100%;
+        flex-direction:row;
+        right:0;
+    }
+    /*Header Tiles Component*/
     .header_titles{
         margin-left: 2rem;
     }
@@ -187,11 +228,7 @@
     .header_about{
         width:90%;
     }
-
-    .line{
-        display:none;
-    }
-
+    /*Social Icons Component*/
     .header_social{
         align-self: center;
         margin-top:3rem;
@@ -202,6 +239,19 @@
         flex-direction: row;
     }
 
+    .line{
+        display:none;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px){
+    /*Header Component*/
+    .header_social_titles{
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-left: 0;
+    }
+    /*Navigation Component*/
     .nav_links{
         display:none;
     }
@@ -231,33 +281,22 @@
         justify-content: center;
         align-items: center;
     }
-
+    /*Link Component*/
     .nav_link{
         margin:0.5rem 0;
     }
-
+    /*Color Dropdown Component*/
     .color_picker{
         margin:0.5rem 0;
     }
-
-    .color_list{
-        right:40%;
-        top:65%;
-    }
-
+    
     .chrome_picker{
-        right:10%;
-        top:65%;
-    }
-}
-
-@media (min-width:576px) and (max-width:768px){
-    .header_social_titles{
-        flex-direction: column-reverse;
         justify-content: center;
-        margin-left: 0;
+        width:100%;
+        flex-direction:row;
+        right:0%;
     }
-
+    /*Header Titles Component*/
     .header_titles{
         margin-left: 4.5rem;
     }
@@ -269,11 +308,7 @@
     .header_about{
         width:80%;
     }
-
-    .line{
-        display:none;
-    }
-
+    /*Social Icons Component*/
     .header_social{
         align-self: center;
         margin-top:3rem;
@@ -284,56 +319,14 @@
         flex-direction: row;
     }
 
-    .nav_links{
+    .line{
         display:none;
     }
 
-    .hamburger_menu{
-        display:block;
-        cursor:pointer;
-    }
-
-    .close_menu{
-        position:absolute;
-        top:0;
-        right:0;
-        padding: 1.5rem 1.5rem 0 0;
-        cursor:pointer;
-    }
-    
-    .mobile_nav_links{
-        position:absolute;
-        top:0;
-        left:0;
-        background-color: var(--theme-color);
-        display:flex;
-        flex-direction: column;
-        width:100vw;
-        height:100vh;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .nav_link{
-        margin:0.5rem 0;
-    }
-
-    .color_picker{
-        margin:0.5rem 0;
-    }
-
-    .color_list{
-        right:40%;
-        top:65%;
-    }
-
-    .chrome_picker{
-        right:10%;
-        top:65%;
-    }
 }
 
 @media (min-width:768px) and (max-width:992px){
+    /*Header Titles Component*/
     .header_about{
         width:80%;
     }
