@@ -1,13 +1,13 @@
 import {useStore} from "@nanostores/react";
 import { $themeColor,$headingColor,$accentColor,$textColor } from "../stores.ts";
 
-const BodyWrapperComponent=(props)=>{
+const PortfolioWrapperComponent=(props)=>{
     const themeColor=useStore($themeColor);
     const headingColor=useStore($headingColor);
     const accentColor=useStore($accentColor);
     const textColor=useStore($textColor);
     return (
-        <div className="body"
+        <div className="portfolio"
             style={{
                 "--theme-color":themeColor,
                 "--heading-color":headingColor,
@@ -20,4 +20,4 @@ const BodyWrapperComponent=(props)=>{
     )
 }
 
-export default BodyWrapperComponent;
+export default PortfolioWrapperComponent;

@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import HeaderComponent from "./Components/HeaderComponent";
-import BodyWrapperComponent from './Components/BodyWrapperComponent';
+import HeaderComponent from "./Components/Header/HeaderComponent";
+import PortfolioWrapperComponent from './Components/PortfolioWrapperComponent';
 
 function App() {
   return (
-    <BodyWrapperComponent>
+    <PortfolioWrapperComponent>
       <HeaderComponent/>
-    </BodyWrapperComponent>
+    </PortfolioWrapperComponent>
   );
 }
 
