@@ -35,6 +35,10 @@ h1,h2,h3,h4,h5,h6{
   opacity: 0.8;
 }
 
+.mx-xs{
+  margin:0 0.5rem;
+}
+
 .mt-sm{
   margin-top:1rem;
 }
