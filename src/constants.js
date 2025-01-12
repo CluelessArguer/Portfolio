@@ -1,12 +1,15 @@
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import {faFileLines} from "@fortawesome/free-solid-svg-icons";
+import { faCircle } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { forwardRef } from "react";
 
 //Navigation Component
 export const navLinks=[
     {
         number:"01.",
         name:"Experience",
-        href:"#"
+        href:"#related-experience"
     },
     {
         number:"02.",
@@ -174,8 +177,8 @@ export const projects=[
 
 export const jobs=[
     {
-        h3:'Cowlick Studios',
-        h4:'Windsor,ON | Remote',
+        job:"Web Developer",
+        location:<>Cowlick Studios <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/> Windsor, ON <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/> Contract</>,
         skills:['Astro', 'Shopify', 'React', 'Tailwind'],
         body:['Developed responsive websites using technologies that met the client’s requirements (with Astro and Tailwind being predominantly used)',
             'Worked with form validation, databases, API’s, nanostores, and more',
@@ -183,19 +186,23 @@ export const jobs=[
         ],
         date:'May 2024 - Present',
         link:'https://cowlickstudios.com/',
+        max:2024.9,
+        min:2024
     },
     {
-        h3:'Bachelor of Computer Science, Honours',
-        h4:'University of Windsor | Windsor, ON | Co-op',
+        job:'Bachelor of Computer Science, Honours',
+        location:<>University of Windsor <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/> Windsor, ON <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/> Co-op</>,
         skills:['Problem Solving','Fast Learner','Motivation'],
-        body:'Networking, making friends, and developing hard/soft skills is the essence '+
-              'of an university education.',
+        body:['Networking, making friends, and developing hard/soft skills is the essence '+
+              'of an university education','',''],
         date:'September 2017 - April 2023',
-        link:''
+        link:'',
+        max:2023.9,
+        min:2022
     },
     {
-        h3:'Web Designer',
-        h4:'University of Windsor | Windsor, ON | Co-op',
+        job:'Web Designer',
+        location:<>University of Windsor <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/> Windsor, ON <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/> Co-op</>,
         skills:['Drupal','HTML','CSS','Web Accessibility'],
         body:[
                 'Discussed potential web design ideas with co-workers while adhering to web accessibility guidelines',
@@ -204,11 +211,13 @@ export const jobs=[
                 'Developed thorough instructional videos to assist future website maintainers'
              ],
         date:'May 2021 - September 2021',
-        link:'https://www.uwindsor.ca/institutional-analysis/'
+        link:'https://www.uwindsor.ca/institutional-analysis/',
+        max:2021.9,
+        min:2021
     },
     {
-        h3:'UX/UI Designer',
-        h4:'Communitech | Remote | Co-op',
+        job:'UX/UI Designer',
+        location:<>Communitech <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/> Remote <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/> Co-op</>,
         skills:['Wordpress','Squarespace','Teamwork','Wireframing'],
         body:[
                 'Understood client needs and outlined a plan of action to complete the deliverables within the two-to-six ' +
@@ -217,11 +226,13 @@ export const jobs=[
                 'Created and redesigned websites using content management systems such as Squarespace and WordPress'
              ],
         date:'September 2020 - December 2020',
-        link:''
+        link:'',
+        max:2020.9,
+        min:2020.5
     },
     {
-        h3:'Tier 1 Support Technician',
-        h4:'University of Windsor | Windsor, ON | Co-op',
+        job:'Tier 1 Support Technician',
+        location:<>University of Windsor <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/> Windsor, ON <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/> Co-op</>,
         skills:['Troubleshoot','Customer Service','TeamDynamix'],
         body:[
                 'Created service request tickets on behalf of faculty, staff, and students using TeamDynamix',
@@ -229,6 +240,12 @@ export const jobs=[
                 'Provided support to clients in the areas of password resets, minor network problems, and more'
              ],
         date:'January 2020 - March 2020',
-        link:''
+        link:'',
+        max:2020.4,
+        min:2020
     }
 ];
+
+export const RangeText = forwardRef((props, forwardedRef) => (
+	<button {...props} ref={forwardedRef} />
+));
