@@ -199,6 +199,6 @@ export const projects=[
                 'your experience and thank you for taking the time to browse my website.',
         date:'June 2023 - July 2023',
         github:false,
-        link:'cluelessarguer.github.io/PersonalWebsite'
+        link:'https://cluelessarguer.github.io/PersonalWebsite'
     }
 ];

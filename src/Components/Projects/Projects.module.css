@@ -24,7 +24,10 @@
     flex-direction: column;
     height:60%;
     overflow:scroll;
-    scrollbar-color: var(--accent-color);
+}
+
+.project_container::-webkit-scrollbar,.project_container::-webkit-scrollbar-corner{
+    background-color: transparent;
 }
 
 .project_individual{
@@ -82,3 +85,21 @@
     margin-right:1rem;
 }
 
+@media (max-width:768px){
+    .project_outer{
+        width:90%;
+    }
+
+    .project_container{
+        height:70%;
+    }
+    .project_individual{
+        flex-direction: column;
+    }
+    .project_description{
+        width:95%;
+    }
+    .project_split, .project_split_two{
+        width:100%;
+    }
+}
