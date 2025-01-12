@@ -14,20 +14,15 @@ export const navLinks=[
     {
         number:"02.",
         name:"Projects",
-        href:"#"
+        href:"#projects"
     },
     {
         number:"03.",
-        name:"Skills",
-        href:"#"
+        name:"Contact",
+        href:"#get-in-touch"
     },
     {
         number:"04.",
-        name:"Contact",
-        href:"#"
-    },
-    {
-        number:"05.",
         name:"Resume",
         href:"#"
     },
@@ -50,131 +45,6 @@ export const socialLinks=[
 ];
 
 //Work Component
-export const projects=[
-    {
-        h3:'Anime',
-        h4:'Windsor, ON',
-        skills:['Wordpress','PHP','CSS'],
-        body:[
-            'Using plugins for backups, form automation, etc ...',
-            'Migrate from dev to live server (databases, files)',
-            'Using Wordpress interface to make responsive website'
-        ],
-        date:'Dec 2024',
-        button:true,
-        list:true,
-        github:false,
-        link:'https://barracophysiotherapy.com/'
-    },
-    {
-        h3:'Barraco Physiotherapy',
-        h4:'Windsor, ON',
-        skills:['Wordpress','PHP','CSS'],
-        body:[
-            'Using plugins for backups, form automation, etc ...',
-            'Migrate from dev to live server (databases, files)',
-            'Using Wordpress interface to make responsive website'
-        ],
-        date:'Dec 2024',
-        button:true,
-        list:true,
-        github:false,
-        link:'https://barracophysiotherapy.com/'
-    },
-    {
-        h3:'Boggs Coffee',
-        h4:'Windsor, ON',
-        skills:['Astro','Shopify/API','TypeScript','React','Responsive Design'],
-        body:[
-            'Shopify Storefront API is prevalent across many of the webpages to display '+
-            'products, display blogs, cart mutation, and provide the checkout link',
-            'Form Validation, Brevo API, Responsive Design, Routing'
-        ],
-        date:'July 2024 - Dec 2024',
-        button:true,
-        list:true,
-        github:false,
-        link:'https://boggscoffee.com/'
-    },
-    {
-        h3:'Stellar Structures',
-        h4:'Windsor, ON',
-        skills:['Astro', 'Tailwind'],
-        body:[
-            'Single page incorporating carousel, gallery, load more button, and contact form'
-        ],
-        date:'July 2024',
-        button:true,
-        list:true,
-        github:false,
-        link:'https://stellarstructuresinc.com/'
-    },
-    {
-        h3:'Copper Tunnel',
-        h4:'Windsor, ON',
-        skills:['HTML','CSS', 'Reponsive Design'],
-        body:['Sleek modern design and responsive design',
-            'Incorportates CSS grid and flex'
-        ],
-        date:'June 2024',
-        button:true,
-        list:true,
-        github:false,
-        link:'https://www.coppertunnel.net/'
-    },
-    {
-        h3:'Boggs Coffee Landing Page',
-        h4:'Windsor, ON',
-        skills:['HTML','CSS'],
-        body:['Review latest Boggs Coffee entry',
-            'Exchanged landing page for full fledged website'],
-        date:'May 2024',
-        button:true,
-        list:true,
-        github:false,
-        link:'https://boggscoffee.com/'
-    },
-    {
-        h3:'Weather Application',
-        h4:'Windsor, ON',
-        skills:['React','HTML','CSS','JavaScript'],
-        body:'Are you curious to know the current or forecasted weather for a location? '+
-             'Find out right here (live website unavailable for the moment).',
-        date:'July 2023 - August 2023',
-        button:true,
-        list:false,
-        github:true,
-        link:'https://github.com/CluelessArguer/Weather',
-        githubLink: 'https://github.com/CluelessArguer/Weather'
-    },
-    {
-        h3:'Personal Website',
-        h4:'Windsor, ON',
-        skills:['React','HTML','CSS','JavaScript'],
-        body:'This is the website you\'re currently browsing. I hope you are enjoying '+
-                'your experience and thank you for taking the time to browse my website.',
-        date:'June 2023 - July 2023',
-        button:false,
-        list:false,
-        github:false,
-        link:''
-    },
-    {
-        h3:'Mock E-commerce Website',
-        h4:'Windsor, ON',
-        skills:['HTML','CSS','JavaScript','PHP','MySQL'],
-        body:'This mimics an e-commerce website experience without a checkout ' +
-             'functionality. Create an account and experience it as an user. When ' +
-             'registering, use fake information as this project was meant to provide ' +
-             'web development practice.',
-        date:'January 2022 - April 2022',
-        button:false,
-        list:false,
-        github:false,
-        link:'https://manso118.myweb.cs.uwindsor.ca/COMP3077/FinalProject/PHP/home/index.php'
-    },
-];
-
 export const jobs=[
     {
         job:"Web Developer",
@@ -249,3 +119,86 @@ export const jobs=[
 export const RangeText = forwardRef((props, forwardedRef) => (
 	<button {...props} ref={forwardedRef} />
 ));
+
+//Projects Component
+export const projects=[
+    {
+        name:'Barraco Physiotherapy',
+        location:'Windsor, ON',
+        skills:['Wordpress','PHP','CSS'],
+        body:[
+            'Using plugins for backups, form automation, etc ...',
+            'Migrate from dev to live server (databases, files)',
+            'Using Wordpress interface to make responsive website'
+        ],
+        date:'Dec 2024',
+        github:false,
+        link:'https://barracophysiotherapy.com/'
+    },
+    {
+        name:'Boggs Coffee',
+        location:'Windsor, ON',
+        skills:['Astro','Shopify/API','TypeScript','React', 'GraphQL'],
+        body:[
+            'Shopify Storefront API is prevalent across many of the webpages to display '+
+            'products, display blogs, cart mutation, and provide the checkout link',
+            'Form Validation, Brevo API, Responsive Design, Routing'
+        ],
+        date:'July 2024 - Dec 2024',
+        github:false,
+        link:'https://boggscoffee.com/'
+    },
+    {
+        name:'Stellar Structures',
+        location:'Windsor, ON',
+        skills:['Astro', 'Tailwind'],
+        body:[
+            'Single page incorporating carousel, gallery, load more button, and contact form'
+        ],
+        date:'July 2024',
+        github:false,
+        link:'https://stellarstructuresinc.com/'
+    },
+    {
+        name:'Copper Tunnel',
+        location:'Windsor, ON',
+        skills:['HTML','CSS', 'Reponsive Design'],
+        body:['Sleek modern design and responsive design',
+            'Incorportates CSS grid and flex'
+        ],
+        date:'June 2024',
+        github:false,
+        link:'https://www.coppertunnel.net/'
+    },
+    {
+        name:'Boggs Coffee Landing Page',
+        location:'Windsor, ON',
+        skills:['HTML','CSS'],
+        body:['Review latest Boggs Coffee entry',
+            'Exchanged landing page for full fledged website'],
+        date:'May 2024',
+        github:false,
+        link:'https://boggscoffee.com/'
+    },
+    {
+        name:'Weather Application',
+        location:'Windsor, ON',
+        skills:['React','HTML','CSS','JavaScript'],
+        body:'Are you curious to know the current or forecasted weather for a location? '+
+             'Find out right here (live website unavailable for the moment).',
+        date:'July 2023 - August 2023',
+        github:true,
+        link:'https://github.com/CluelessArguer/Weather',
+        githubLink: 'https://github.com/CluelessArguer/Weather'
+    },
+    {
+        name:'Personal Website',
+        location:'Windsor, ON',
+        skills:['React','HTML','CSS','JavaScript'],
+        body:'This is the website you\'re currently browsing. I hope you are enjoying '+
+                'your experience and thank you for taking the time to browse my website.',
+        date:'June 2023 - July 2023',
+        github:false,
+        link:'cluelessarguer.github.io/PersonalWebsite'
+    }
+];
