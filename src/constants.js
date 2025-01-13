@@ -127,7 +127,6 @@ export const RangeText = forwardRef((props, forwardedRef) => (
 export const projects=[
     {
         name:'Barraco Physiotherapy',
-        location:'Windsor, ON',
         skills:['Wordpress','PHP','CSS'],
         body:[
             'Using plugins for backups, form automation, etc ...',
@@ -140,7 +139,6 @@ export const projects=[
     },
     {
         name:'Boggs Coffee',
-        location:'Windsor, ON',
         skills:['Astro','Shopify/API','TypeScript','React', 'GraphQL'],
         body:[
             'Shopify Storefront API is prevalent across many of the webpages to display '+
@@ -153,7 +151,6 @@ export const projects=[
     },
     {
         name:'Stellar Structures',
-        location:'Windsor, ON',
         skills:['Astro', 'Tailwind'],
         body:[
             'Single page incorporating carousel, gallery, load more button, and contact form'
@@ -164,7 +161,6 @@ export const projects=[
     },
     {
         name:'Copper Tunnel',
-        location:'Windsor, ON',
         skills:['HTML','CSS', 'Reponsive Design'],
         body:['Sleek modern design and responsive design',
             'Incorportates CSS grid and flex'
@@ -175,7 +171,6 @@ export const projects=[
     },
     {
         name:'Boggs Coffee Landing Page',
-        location:'Windsor, ON',
         skills:['HTML','CSS'],
         body:['Review latest Boggs Coffee entry',
             'Exchanged landing page for full fledged website'],
@@ -185,7 +180,6 @@ export const projects=[
     },
     {
         name:'Weather Application',
-        location:'Windsor, ON',
         skills:['React','HTML','CSS','JavaScript'],
         body:'Are you curious to know the current or forecasted weather for a location? '+
              'Find out right here (live website unavailable for the moment).',
@@ -196,7 +190,15 @@ export const projects=[
     },
     {
         name:'Personal Website',
-        location:'Windsor, ON',
+        skills:['React','HTML','CSS','JavaScript'],
+        body:'This is the website you\'re currently browsing. I hope you are enjoying '+
+                'your experience and thank you for taking the time to browse my website.',
+        date:'June 2023 - July 2023',
+        github:false,
+        link:'https://cluelessarguer.github.io/PersonalWebsite'
+    },
+    {
+        name:'Office of Institutional Analysis Website',
         skills:['React','HTML','CSS','JavaScript'],
         body:'This is the website you\'re currently browsing. I hope you are enjoying '+
                 'your experience and thank you for taking the time to browse my website.',

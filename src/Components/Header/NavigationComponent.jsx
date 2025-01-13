@@ -31,15 +31,17 @@ const NavigationComponent=()=>{
             {
                 menuOn?
                 <div className={styles.mobile_nav_links}>
-                    <FontAwesomeIcon className={styles.close_menu} icon={faX} size="xl" onClick={setHamburgerMenuOn} />
-                    {
-                        navLinks.map((link,index)=>{
-                            return (
-                                <LinkComponent key={index} number={link.number} title={link.name} href={link.href} menuon={setHamburgerMenuOn}/>
-                            )
-                        })
-                    }
-                    <ColorPickerComponent/>
+                    <div className={styles.mobile_nav_links_container}>
+                        <FontAwesomeIcon className={styles.close_menu} icon={faX} size="xl" onClick={setHamburgerMenuOn} />
+                        {
+                            navLinks.map((link,index)=>{
+                                return (
+                                    <LinkComponent key={index} number={link.number} title={link.name} href={link.href} menuon={setHamburgerMenuOn}/>
+                                )
+                            })
+                        }
+                        <ColorPickerComponent/>
+                    </div>
                 </div>:""
             }
         </div>
