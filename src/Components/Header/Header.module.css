@@ -163,6 +163,7 @@
     display:none;
 }
 
+
 @media (max-width:576px){
     /*Header Component*/
     .header_social_titles{
@@ -200,7 +201,9 @@
         height:100vh;
         justify-content: center;
         align-items: center;
+        touch-action: none;
     }
+    
     /*Link Compononent*/
     .nav_link{
         margin:0.5rem 0;

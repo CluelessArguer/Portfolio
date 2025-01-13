@@ -30,7 +30,7 @@ const NavigationComponent=()=>{
             <FontAwesomeIcon className={styles.hamburger_menu} icon={faBars} onClick={setHamburgerMenuOn} size="2xl" />
             {
                 menuOn?
-                <div className={`${styles.mobile_nav_links}`}>
+                <div className={styles.mobile_nav_links}>
                     <FontAwesomeIcon className={styles.close_menu} icon={faX} size="xl" onClick={setHamburgerMenuOn} />
                     {
                         navLinks.map((link,index)=>{
