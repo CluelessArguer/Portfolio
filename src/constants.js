@@ -24,7 +24,7 @@ export const navLinks=[
     {
         number:"04.",
         name:"Resume",
-        href:"#"
+        href:require('./updatedresume2025.pdf')
     },
 ];
 
@@ -42,7 +42,8 @@ export const socialLinks=[
         },
         {
             social:"Resume",
-            icon:faFileLines
+            icon:faFileLines,
+            link:require('./updatedresume2025.pdf')
         }
 ];
 
