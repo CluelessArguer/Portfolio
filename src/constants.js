@@ -126,35 +126,31 @@ export const RangeText = forwardRef((props, forwardedRef) => (
 //Projects Component
 export const projects=[
     {
-        name:'Barraco Physiotherapy',
-        skills:['Wordpress','PHP','CSS'],
-        body:[
-            'Using plugins for backups, form automation, etc ...',
-            'Migrate from dev to live server (databases, files)',
-            'Using Wordpress interface to make responsive website'
-        ],
-        date:'Dec 2024',
-        github:false,
-        link:'https://barracophysiotherapy.com/'
-    },
-    {
         name:'Boggs Coffee',
         skills:['Astro','Shopify/API','TypeScript','React', 'GraphQL'],
-        body:[
-            'Shopify Storefront API is prevalent across many of the webpages to display '+
-            'products, display blogs, cart mutation, and provide the checkout link',
-            'Form Validation, Brevo API, Responsive Design, Routing'
-        ],
+        body: 'The use of the Shopify Storefront API is prevalent across the entire application '+
+        'to retrieve information from the store databases (using GraphQL). The API was used but not limited '+
+        'to displaying products, displaying blogs, cart mutation, and providing a checkout link. '+
+        'Other relevant things used include form validation, Brevo API, Astro routing, and nanostores.',
         date:'July 2024 - Dec 2024',
         github:false,
         link:'https://boggscoffee.com/'
     },
     {
+        name:'Barraco Physiotherapy',
+        skills:['Wordpress','PHP','CSS'],
+        body:'Relevant to the building of the website besides the Wordpress user interface includes '+
+        'Wordpress plugins for file and database backups in addition to form automation. Once the site '+
+        'was finished, the files and database files were migrated from a development to a live server '+
+        'using one of the very many plugins Wordpress provides.',
+        date:'Dec 2024',
+        github:false,
+        link:'https://barracophysiotherapy.com/'
+    },
+    {
         name:'Stellar Structures',
         skills:['Astro', 'Tailwind'],
-        body:[
-            'Single page incorporating carousel, gallery, load more button, and contact form'
-        ],
+        body:'Single page website incorporating a carousel, gallery, load more button, and contact form.',
         date:'July 2024',
         github:false,
         link:'https://stellarstructuresinc.com/'
@@ -162,9 +158,8 @@ export const projects=[
     {
         name:'Copper Tunnel',
         skills:['HTML','CSS', 'Reponsive Design'],
-        body:['Sleek modern design and responsive design',
-            'Incorportates CSS grid and flex'
-        ],
+        body:'Single page website with a sleek modern and responsive design that incorporates '+
+        'CSS grid and flexbox.',
         date:'June 2024',
         github:false,
         link:'https://www.coppertunnel.net/'
@@ -172,8 +167,7 @@ export const projects=[
     {
         name:'Boggs Coffee Landing Page',
         skills:['HTML','CSS'],
-        body:['Review latest Boggs Coffee entry',
-            'Exchanged landing page for full fledged website'],
+        body:'Review latest Boggs Coffee entry as landing page was removed for full-fledged website.',
         date:'May 2024',
         github:false,
         link:'https://boggscoffee.com/'
@@ -191,19 +185,21 @@ export const projects=[
     {
         name:'Personal Website',
         skills:['React','HTML','CSS','JavaScript'],
-        body:'This is the website you\'re currently browsing. I hope you are enjoying '+
-                'your experience and thank you for taking the time to browse my website.',
+        body:'Old portfolio site using React as it\'s main technology.',
         date:'June 2023 - July 2023',
         github:false,
         link:'https://cluelessarguer.github.io/PersonalWebsite'
     },
     {
         name:'Office of Institutional Analysis Website',
-        skills:['React','HTML','CSS','JavaScript'],
-        body:'This is the website you\'re currently browsing. I hope you are enjoying '+
-                'your experience and thank you for taking the time to browse my website.',
-        date:'June 2023 - July 2023',
+        skills:['Drupal','HTML','CSS','Web Accessibility'],
+        body:'Drupal (a CMS) was predominantly used for the construction of this website. '+
+        'Though that was the case, since the user interface is not very user friendly, much of the work '+
+        'was done using custom HTML and CSS much like you would sometimes incorporate your own PHP or CSS '+
+        'on a Wordpress site. The design had to follow the web accesibility guidelines provided by the department '+
+        'which were in line with the WCAG standards.',
+        date:'May 2021 - September 2021',
         github:false,
-        link:'https://cluelessarguer.github.io/PersonalWebsite'
+        link:'https://www.uwindsor.ca/institutional-analysis/'
     }
 ];
