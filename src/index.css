@@ -1,13 +1,103 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --theme-color:#3e1d26;
+  --text-color:#b9b9b9;
+  --inter-font: "Inter","Segoe UI", "Frutiger", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  --white: #FFFFFF;
+  --accent-color:#b19f49;
+  --heading-color:#e2e2e2;
+  --accent-color-rgb:177, 159, 73;
+  --alex-brush:"Alex Brush","Segoe UI", "Frutiger", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.portfolio{
+  font-family: var(--inter-font);
+  background-color: var(--theme-color);
+  color:var(--text-color);
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0.5rem 0;
+}
+
+.icon{
+  margin: 0.75rem 0;
+  opacity:0.7;
+}
+
+.icon:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.mx-xs{
+  margin:0 0.5rem;
+}
+
+.mt-sm{
+  margin-top:1rem;
+}
+
+.mt-md{
+  margin-top:2rem;
+}
+
+.mt-lg{
+  margin-top:3rem;
+}
+
+.accent_color{
+  color:var(--accent-color);
+}
+
+a{
+  text-decoration: none;
+  color:var(--text-color);
+}
+
+.block{
+  display:block;
+}
+
+.simplebar-scrollbar::before {
+  background-color: var(--accent-color) !important;
+  opacity:0.7 !important;
+}
+
+.simplebar-track{
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 1rem;
+}
+
+.toast{
+  background-color:var(255,255,255,0) !important;
+  color:#000000;
+  justify-content: center;
+}
+
+.Toastify__progress-bar {
+  border: 5px solid var(--accent-color);
+  opacity:1;
+}
+
+.Toastify__progress-bar--bg {
+  border:5px solid var(--accent-color);
+  opacity:0.4;
+}
+
+@media (max-width:576px){
+  .icon{
+    margin:0 1.25rem;
+  }
+}
+
+@media (min-width:576px) and (max-width:768px){
+  .icon{
+    margin:0 1.25rem;
+  }
 }

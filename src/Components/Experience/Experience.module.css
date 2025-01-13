@@ -1,0 +1,160 @@
+/*Experience Component*/
+.experience{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.related_experience{
+    width:55%;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.experience_title{
+    font-size: 2rem;
+    letter-spacing:2px;
+    color: var(--heading-color);
+}
+
+.experience_container{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+
+/*Year Slider Component*/
+.SliderRoot {
+    width:10%;
+    position:relative;
+    display: flex;
+    align-items:flex-end;
+    user-select: none;
+    touch-action: none;  
+}
+
+.SliderRoot[data-orientation="vertical"] {
+	flex-direction: column;
+	height: 20rem;
+}
+
+.SliderTrack {
+	flex-grow: 1;
+    background-color: var(--accent-color);
+}
+
+.SliderTrack[data-orientation="vertical"] {
+	width: 0.1rem;
+}
+
+.SliderRange[data-orientation="vertical"] {
+	width: 100%;
+}
+
+.SliderThumb {
+    cursor:grab;
+    width: 4rem;
+	height: 1.5rem;
+    border:none;
+    outline:none;
+    background-color: var(--white);
+    color:var(--accent-color);
+}
+/*Job Component*/
+.job_experience{
+    width:90%;
+}
+
+.job_title{
+    font-size:1.5rem;
+}
+
+.job_location{
+    margin-bottom:0.75rem;
+}
+
+.job_description{
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.job_desc_item{
+    margin:0.5rem 0;
+    line-height: 1.5;
+}
+
+.job_skills{
+    display:flex;
+    margin-top:1.5rem;
+    flex-wrap: wrap;
+}
+
+.job_skill{
+    margin:0 1rem 0 0;
+    color: var(--accent-color);
+    padding:0.25rem 0.5rem;
+    font-size: 14px;
+    border-radius: 1rem;
+}
+
+@media (max-width:576px){
+    /*Experience Component*/
+    .related_experience{
+        width:100%;
+    } 
+
+    .experience_title{
+       align-self:center;
+       text-align: center;
+       margin-bottom:2rem;
+    }
+
+    .experience_container{
+        flex-direction: column;
+    }
+    /*Year Slider Component*/
+    .SliderRoot {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width:90%;
+        height:0.2rem;  
+    }
+    
+    .SliderTrack {
+        background-color: var(--accent-color);
+        position: relative;
+        flex-grow: 1;
+        border-radius: 9999px;
+        height: 3px;
+    }
+    
+    .SliderThumb {
+        width: 4rem;
+        height: 1.5rem;
+        background-color: white;
+        box-shadow: 0 2px 10px var(--black-a7);
+    }
+    
+    .job_skills{
+        justify-content: center;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px){
+    /*Experience Component*/
+    .related_experience{
+        width:85%;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px){
+    /*Experience Component*/
+    .related_experience{
+        width:70%;
+    }
+}
