@@ -204,6 +204,7 @@
     /*Link Compononent*/
     .nav_link{
         margin:0.5rem 0;
+        font-size:1rem;
     }
     /*Color Dropdown Component*/
     .color_picker{

@@ -17,7 +17,7 @@ const ContactComponent=()=>{
             <h2 className={styles.contact_title}>
                 <span className="accent_color">03.</span> Get in Touch
             </h2>
-            <div>
+            <div className={styles.contact_text}>
                 Feel free to send any inquiries to <a className={styles.contact_link} href="mailto:webdev.design.code@gmail.com">webdev.design.code@gmail.com</a>
                 <button className={styles.contact_button} onClick={()=>{
                     navigator.clipboard.writeText("webdev.design.code@gmail.com");
