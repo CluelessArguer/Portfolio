@@ -10,7 +10,9 @@ const SocialIconsComponent=()=>{
                 {
                     socialLinks.map((social,index)=>{
                         return (
-                            <FontAwesomeIcon key={index} className="icon" icon={social.icon} size="2xl"/>
+                            <a href={social.link} target="_blank">
+                                <FontAwesomeIcon key={index} className="icon" icon={social.icon} size="2xl"/>
+                            </a>
                         )
                     })
                 }

@@ -32,11 +32,13 @@ export const navLinks=[
 export const socialLinks=[
         {
             social:"Github",
-            icon:faGithub
+            icon:faGithub,
+            link:"https://github.com/CluelessArguer"
         },
         {
             social: "LinkedIn",
-            icon:faLinkedin
+            icon:faLinkedin,
+            link:"https://www.linkedin.com/in/marc-mansour-8616b81b6/"
         },
         {
             social:"Resume",
