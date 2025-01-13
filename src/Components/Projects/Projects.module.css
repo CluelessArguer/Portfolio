@@ -1,3 +1,4 @@
+/*Projects Component*/
 .project{
     height: 100vh;
     width:100vw;
@@ -16,13 +17,14 @@
 
 .project_title{
     font-size:2rem;
-    margin-bottom:1rem;
+    margin-bottom:1.5rem;
+    color:var(--heading-color);
 }
-
+/*Project Component*/
 .project_container{
     display: flex;
     flex-direction: column;
-    height:60%;
+    height:50%;
     overflow:scroll;
 }
 
@@ -31,7 +33,7 @@
 }
 
 .project_individual{
-    margin:1rem 0 2rem 0;
+    margin:0 0 2.5rem 0;
     display: flex;
     align-items: center;
     gap:1rem;
@@ -47,12 +49,8 @@
     font-size:1.5rem;
 }
 
-.project_location{
-    font-size:1.1rem;
-}
-
 .project_date{
-
+    font-size:0.9rem;
 }
 
 .project_skills{
@@ -61,12 +59,12 @@
 }
 
 .project_skill{
-    color: var(--accent-color);
+    color:var(--theme-color);
     margin-right:0.5rem;
     margin-top:0.5rem;
-    background-color: var(--white);
-    border-radius: 1rem;
-    padding:0.25rem 1rem;
+    background-color: var(--text-color);
+    border-radius: 0.2rem;
+    padding:0.15rem 0.3rem;
 }
 
 .project_split_two{

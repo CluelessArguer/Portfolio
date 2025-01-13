@@ -11,6 +11,7 @@
 
 .contact_title{
     font-size:2rem;
+    color:var(--heading-color);
 }
 
 .icons{
@@ -21,12 +22,62 @@
     margin:0 0.5rem;
 }
 
+.contact_link{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    margin-right:0.5rem;
+}
+
 .contact_button{
-    padding:0.5rem;
-    border:1px solid var(--accent-color);
+    color:var(--accent-color);
+    background-color:transparent;
+    border:none;
 }
 
 .contact_button:hover{
-    background-color: var(--accent-color);
-    color:#000000;
+    cursor: pointer;
+}
+
+.contact_form{
+    display:flex;
+    gap:1rem;
+    align-items: center;
+    height:5rem;
+}
+
+.contact_fields{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.input_field, .textarea{
+    padding:0.5rem 1rem;
+    width:100%;
+    outline:none;
+    border:none;
+    height:2rem;
+}
+
+.input_field:focus{
+    outline:none;
+    border:none;
+    
+}
+
+.textarea{
+    height:5rem;
+}
+
+.form_button{
+    color:var(--accent-color);
+    border:1px solid var(--accent-color);
+    padding:0 2rem;
+    background-color:transparent;
+    height:2.5rem;
+}
+
+.form_button:hover{
+    background-color: rgba(177,159,8,0.1);
+    cursor:pointer;
 }

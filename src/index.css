@@ -74,6 +74,21 @@ a{
   border-radius: 1rem;
 }
 
+.toast{
+  background-color:var(255,255,255,0) !important;
+  color:#000000;
+}
+
+.Toastify__progress-bar {
+  border: 5px solid var(--accent-color);
+  opacity:1;
+}
+
+.Toastify__progress-bar--bg {
+  border:5px solid var(--accent-color);
+  opacity:0.4;
+}
+
 @media (max-width:576px){
   .icon{
     margin:0 1.25rem;
