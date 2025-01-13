@@ -35,7 +35,7 @@ const NavigationComponent=()=>{
                     {
                         navLinks.map((link,index)=>{
                             return (
-                                <LinkComponent key={index} number={link.number} title={link.name} href={link.href}/>
+                                <LinkComponent key={index} number={link.number} title={link.name} href={link.href} menuon={setHamburgerMenuOn}/>
                             )
                         })
                     }
