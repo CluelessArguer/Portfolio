@@ -141,7 +141,7 @@ export const projects=[
 	{
         name:'The Washroom Trailer Co',
         skills:['Wordpress','PHP','HTML','CSS'],
-        body: ''
+        body: '',
         date:'',
         github:false,
         link:'https://washroomtrailerco.ca'
@@ -149,7 +149,7 @@ export const projects=[
 	{
         name:'Fehr Tinting',
         skills:['Wordpress','PHP','HTML','CSS'],
-        body: ''
+        body: '',
         date:'',
         github:false,
         link:'https://fehrtinting.com'
@@ -157,7 +157,7 @@ export const projects=[
 	{
         name:'Matrix Repatterning and Wellness of Leamington',
         skills:['Wordpress','PHP','HTML','CSS'],
-        body: ''
+        body: '',
         date:'',
         github:false,
         link:'https://mrwl.ca'
@@ -165,7 +165,7 @@ export const projects=[
 	{
         name:'Unstoppable Sales Machine',
         skills:['Wordpress','PHP','HTML','CSS'],
-        body: ''
+        body: '',
         date:'',
         github:false,
         link:'https://unstoppablesalesmachine.com'
