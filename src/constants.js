@@ -43,7 +43,7 @@ export const socialLinks=[
         {
             social:"Resume",
             icon:faFileLines,
-            link:require('./updatedresume2025.pdf')
+            link:require('./updatedresume.pdf')
         }
 ];
 
