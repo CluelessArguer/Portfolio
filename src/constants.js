@@ -49,6 +49,19 @@ export const socialLinks=[
 
 //Work Component
 export const jobs=[
+	{   
+		job:"Web Developer",
+        location:<>Cowlick Studios <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/> Windsor, ON <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/>  Part Time</>,
+        skills:['Wordpress', 'Communication', 'Migration', '3rd Party Integration'],
+        body:[' Developed Wordpress websites with forms, custom code for sections with distinct functionality (e.g. horizontal accordion), and custom theme',
+            'Added webpages, fixed errors, and ensured minimal downtime for websites experiencing issues',
+            'Migrated websites from dev server to live sever moving files and databases while maintaining integrity of data'
+        ],
+        date:'March 2025 - Present',
+        link:'https://cowlickstudios.com',
+        max:2026.9,
+        min:2025
+	},
     {
         job:"Web Developer",
         location:<>Cowlick Studios <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/> Windsor, ON <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/> Contract</>,
@@ -57,7 +70,7 @@ export const jobs=[
             'Worked with form validation, databases, API’s, nanostores, and more',
             'Discussed with colleagues to exchange ideas to solve issues regarding images, mailer, and API’s'
         ],
-        date:'May 2024 - Present',
+        date:'May 2024 - March 2025',
         link:'https://cowlickstudios.com/',
         max:2024.9,
         min:2024
