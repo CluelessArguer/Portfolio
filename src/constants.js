@@ -138,6 +138,38 @@ export const RangeText = forwardRef((props, forwardedRef) => (
 
 //Projects Component
 export const projects=[
+	{
+        name:'The Washroom Trailer Co',
+        skills:['Wordpress','PHP','HTML','CSS'],
+        body: ''
+        date:'',
+        github:false,
+        link:'https://washroomtrailerco.ca'
+    },
+	{
+        name:'Fehr Tinting',
+        skills:['Wordpress','PHP','HTML','CSS'],
+        body: ''
+        date:'',
+        github:false,
+        link:'https://fehrtinting.com'
+    },
+	{
+        name:'Matrix Repatterning and Wellness of Leamington',
+        skills:['Wordpress','PHP','HTML','CSS'],
+        body: ''
+        date:'',
+        github:false,
+        link:'https://mrwl.ca'
+    },
+	{
+        name:'Unstoppable Sales Machine',
+        skills:['Wordpress','PHP','HTML','CSS'],
+        body: ''
+        date:'',
+        github:false,
+        link:'https://unstoppablesalesmachine.com'
+    },
     {
         name:'Boggs Coffee',
         skills:['Astro','Shopify/API','TypeScript','React', 'GraphQL'],
@@ -145,9 +177,9 @@ export const projects=[
         'to retrieve information from the store databases (using GraphQL). The API was used but not limited '+
         'to displaying products, displaying blogs, cart mutation, and providing a checkout link. '+
         'Other relevant things used include form validation, Brevo API, Astro routing, and nanostores.',
-        date:'July 2024 - Dec 2024',
+        date:'',
         github:false,
-        link:'https://boggscoffee.com/'
+        link:''
     },
     {
         name:'Barraco Physiotherapy',
@@ -156,50 +188,15 @@ export const projects=[
         'Wordpress plugins for file and database backups in addition to form automation. Once the site '+
         'was finished, the files and database files were migrated from a development to a live server '+
         'using one of the very many plugins Wordpress provides.',
-        date:'Dec 2024',
+        date:'',
         github:false,
         link:'https://barracophysiotherapy.com/'
-    },
-    {
-        name:'Stellar Structures',
-        skills:['Astro', 'Tailwind'],
-        body:'Single page website incorporating a carousel, gallery, load more button, and contact form.',
-        date:'July 2024',
-        github:false,
-        link:'https://stellarstructuresinc.com/'
-    },
-    {
-        name:'Copper Tunnel',
-        skills:['HTML','CSS', 'Reponsive Design'],
-        body:'Single page website with a sleek modern and responsive design that incorporates '+
-        'CSS grid and flexbox.',
-        date:'June 2024',
-        github:false,
-        link:'https://www.coppertunnel.net/'
-    },
-    {
-        name:'Boggs Coffee Landing Page',
-        skills:['HTML','CSS'],
-        body:'Review latest Boggs Coffee entry as landing page was removed for full-fledged website.',
-        date:'May 2024',
-        github:false,
-        link:'https://boggscoffee.com/'
-    },
-    {
-        name:'Weather Application',
-        skills:['React','HTML','CSS','JavaScript'],
-        body:'Are you curious to know the current or forecasted weather for a location? '+
-             'Find out right here (live website unavailable for the moment).',
-        date:'July 2023 - August 2023',
-        github:true,
-        link:'https://github.com/CluelessArguer/Weather',
-        githubLink: 'https://github.com/CluelessArguer/Weather'
     },
     {
         name:'Personal Website',
         skills:['React','HTML','CSS','JavaScript'],
         body:'Old portfolio site using React as it\'s main technology.',
-        date:'June 2023 - July 2023',
+        date:'',
         github:false,
         link:'https://cluelessarguer.github.io/PersonalWebsite'
     },
@@ -211,7 +208,7 @@ export const projects=[
         'was done using custom HTML and CSS much like you would sometimes incorporate your own PHP or CSS '+
         'on a Wordpress site. The design had to follow the web accesibility guidelines provided by the department '+
         'which were in line with the WCAG standards.',
-        date:'May 2021 - September 2021',
+        date:'',
         github:false,
         link:'https://www.uwindsor.ca/institutional-analysis/'
     }
