@@ -50,7 +50,7 @@ export const socialLinks=[
 //Work Component
 export const jobs=[
 	{   
-		job:"Web Developer",
+		job:"W3 Support Care",
         location:<>Cowlick Studios <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/> Windsor, ON <FontAwesomeIcon className="mx-xs" icon={faCircle} size="2xs"/>  Part Time</>,
         skills:['Wordpress', 'Communication', 'Migration', '3rd Party Integration'],
         body:[' Developed Wordpress websites with forms, custom code for sections with distinct functionality (e.g. horizontal accordion), and custom theme',
