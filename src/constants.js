@@ -24,7 +24,7 @@ export const navLinks=[
     {
         number:"04.",
         name:"Resume",
-        href:require('./updatedresume2025.pdf')
+        href:require('./updatedresume.pdf')
     },
 ];
 
